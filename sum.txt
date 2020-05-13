@@ -1,0 +1,7 @@
+<<<<<<< Updated upstream
+int sum(int a, int b) {
+=======
+private int sum(int a, int b) {
+>>>>>>> Stashed changes
+return a+b;
+}
