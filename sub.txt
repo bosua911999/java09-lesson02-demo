@@ -1,3 +1,6 @@
 private int sub(int a,int b) {
-	return a-b;
+if (a-b < Integer.MIN_VALUE){
+Log.info("sub of a+b over int value");
+return Integer.MIN_VALUE;}
+return a-b;
 }

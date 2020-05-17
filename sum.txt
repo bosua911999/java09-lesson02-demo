@@ -1,7 +1,6 @@
-<<<<<<< Updated upstream
-int sum(int a, int b) {
-=======
 private int sum(int a, int b) {
->>>>>>> Stashed changes
+if (a+b > Integer.MAX_VALUE){
+Log.info("sum of a+b over int value");
+return Integer.MAX_VALUE;}
 return a+b;
 }
